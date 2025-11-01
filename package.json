@@ -2,8 +2,24 @@
   "name": "@9pros/agent-orchestration-mcp",
   "version": "1.0.0",
   "description": "MCP server for effective orchestration of 130+ specialized agents and workflows",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "agent-orchestration",
+    "multi-agent",
+    "claude",
+    "specialized-agents",
+    "workflow-automation",
+    "ai-development",
+    "team-leader-pattern"
+  ],
   "license": "MIT",
   "author": "9pros",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/9pros/agent-orchestration-mcp.git"
+  },
   "homepage": "https://github.com/9pros/agent-orchestration-mcp",
   "bugs": "https://github.com/9pros/agent-orchestration-mcp/issues",
   "type": "module",
