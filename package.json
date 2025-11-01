@@ -1,0 +1,33 @@
+{
+  "name": "@9pros/agent-orchestration-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for effective orchestration of 130+ specialized agents and workflows",
+  "license": "MIT",
+  "author": "9pros",
+  "homepage": "https://github.com/9pros/agent-orchestration-mcp",
+  "bugs": "https://github.com/9pros/agent-orchestration-mcp/issues",
+  "type": "module",
+  "bin": {
+    "agent-orchestration-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "agents"
+  ],
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "test": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.19.1",
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.23.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "shx": "^0.3.4",
+    "typescript": "^5.8.2"
+  }
+}
